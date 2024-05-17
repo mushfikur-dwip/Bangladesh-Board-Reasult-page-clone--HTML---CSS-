@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Verdana;
+  src: url(/fonts/verdana.ttf);
+}
+
+body {
+  font-family: Verdana !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #eeee;
+}
+
+.app {
+  width: 640px;
+  height: 653px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.header {
+  display: flex;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  background: #eee;
+  padding: 20px;
+}
+
+.logo img {
+  width: 65%;
+}
+.header .title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  background: #007814;
+}
+
+hr {
+  width: 102%;
+  padding: 0;
+  margin: -1px 0 10px -10px;
+  color: #479e55;
+}
+
+.title-min {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-min img {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.title h1 {
+  font-size: 17px;
+  margin: 15px 0px 0 5px;
+  color: #95e17d;
+}
+
+.title .isebb {
+  font-family: Verdana;
+}
