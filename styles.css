@@ -31,8 +31,9 @@ body {
   padding: 20px;
 }
 
-.logo img {
-  width: 65%;
+.logo {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .header .title {
   display: flex;
@@ -41,11 +42,11 @@ body {
   background: #007814;
 }
 
-hr {
+.title hr {
   width: 102%;
   padding: 0;
   margin: -1px 0 10px -10px;
-  color: #479e55;
+  color: red !important;
 }
 
 .title-min {
@@ -68,4 +69,21 @@ hr {
 
 .title .isebb {
   font-family: Verdana;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffee;
+  letter-spacing: 1px;
+  height: 55px;
+}
+.title .link{
+    background-image: url(http://www.educationboardresults.gov.bd/images/bar_bk.jpg);
+    background-repeat: repeat-x;
+    height: 23;
+    background: #86C775;
+    text-align: -webkit-right;
+    padding: 5px;
+    color: #ffff;
+    margin-left: -10px;
+    font-size: 14px;
+    border-top: solid 1px #ffffff;
 }
