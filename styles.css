@@ -26,6 +26,9 @@ body {
   background-color: white;
   border-radius: 8px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header {
   display: flex;
@@ -96,4 +99,67 @@ hr.solid {
   margin-top: 3px;
   font-size: 11px;
   border-top: solid 1px #ffffff;
+}
+
+/* Reseult Design  */
+
+.result {
+  border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+  padding: 30px 40px;
+  margin-top: 20px;
+  width: 400px;
+}
+/* 
+.result form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.result_title{
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 12px;
+    align-items: center;
+}
+
+/* label{
+  text-align: left;
+} */
+.result_data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+#exam-name, #board-name, #year, #roll{
+  width: 205px;
+  color: black;
+  font-size: 12px;
+  border: 1px solid #9999;
+  background-color: #F4F0F2;
+  padding: 4px;
+  border-radius: 4px;
+}
+#roll, #reg, #captcha{
+  width: 195px;
+  color: black;
+  font-size: 12px;
+  border: 1px solid #9999;
+  background-color: #F4F0F2;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.result-lables{
+  text-align: left;
+}
+
+.btn{
+  padding-left: 90px;
 }
